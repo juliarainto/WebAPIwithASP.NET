@@ -1,32 +1,26 @@
 # WebAPIwithASP.NET
 ## Web API with ASP.NET I did for my school course
 
-You will need:
-```
-Postman
-```
+## Testing with Postman:
 
-
-Postman:
-```
-Post: 	
+### Post: 
 http://localhost:5000/api/todo/
-
+```
 {
   "name":"Enter name here",
   "isComplete":true
 } 
-
-Put:    
+```
+### Put:  
 http://localhost:5000/api/todo/{id}
-
+```
 {
   "id":2,
-  "name":"hehe",
+  "name":"Enter name here",
   "isComplete":true
 }
-
-Delete:
+```
+### Delete:
 http://localhost:5000/api/todo/{id}
 
 ```
